@@ -1,0 +1,141 @@
+body {
+    color: white;
+    background-color: #1E1C1F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+span{
+    color: #4A7DFF;
+}
+.h2-img{
+    padding-top: 2rem;
+}
+.p-img{
+    font-weight: normal;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.container-sobre{
+    padding: 1rem;
+    background-color: #1A181B; 
+}
+.h1-sobre{
+    font-size: 1.8rem;
+    margin-top: 4%;
+    text-align: center;
+}
+.p-sobre{
+    font-size: large;
+    margin-right: 20%;
+}
+.image-center{
+    max-width: 300px;
+    margin-left: 4.5rem;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+.container-image-sobre{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+.image-sobre{
+    max-width: 250px;
+    margin-left: 4.5rem;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    color: #fff2e780;
+}
+.h2-formacao{
+  margin-top: 5rem;
+}
+.p-formacao{
+    margin-top: 0.3rem;
+    font-size: medium;
+    font-weight: normal;
+}
+.container-formacao{
+    display: flex;
+}
+.img-formacao{
+    align-items: left;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    background: #282419;
+    margin-top: auto;
+    padding: 1rem;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    background-color: #1A181B;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+footer p{
+    margin-top: 2px;
+}
+footer a:hover{
+    color: #255eec;
+}
+nav a:hover{
+color: #255eec;
+}
+@media screen and (max-width: 768px){
+    .container{
+        display: inline;
+    }
+    .image-center{
+        width: 200px;
+        height: 200px;
+    }
+    .h1-sobre{
+        margin-top: 20%;            
+    }
+    .p-sobre{
+        font-size: 1rem;
+        margin-left: 4rem;
+    }
+    .image-sobre{
+        display: none;
+    }
+    .img-formacao{
+        margin-top: 1rem;
+    }
+    .h2-formacao{
+        margin-top: 1rem;
+    }
+}
